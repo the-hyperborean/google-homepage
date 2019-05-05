@@ -1,0 +1,17 @@
+#content {
+  margin-bottom: 50%;
+  margin-top: 50%;
+}
+
+#logo {
+  display: block;
+  height: 92px;
+  width: 272px;
+}
+
+#search {
+  display: block;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  margin-top: 20px;
+}
