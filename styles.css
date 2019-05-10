@@ -9,9 +9,27 @@
   width: 272px;
 }
 
+#navigation {
+  display: inline;
+}
+
 #search {
   display: block;
   font: 16px arial, sans-serif;
   line-height: 34px;
   margin-top: 20px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
 }
