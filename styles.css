@@ -1,10 +1,3 @@
-#search {
-  display: block;
-  font: 16px arial, sans-serif;
-  line-height: 34px;
-  margin-top: 20px;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -35,19 +28,49 @@ ul li.right {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 20%;
+}
+
+.commit {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 2px;
+  color: #5F6368;
+  font-size: 10pt;
+  margin-left: 10px;
+  padding: 12px;
 }
 
 .footer {
+  background-color: #f2f2f2;
   border: 1px solid #000000;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
-  padding-top: 180px;
+  padding-top: 150px;
 }
 
 .navigation {
   padding: 10px;
   font-size: small;
   color: #00000;
+}
+
+.search {
+  border-radius: 25px;
+  display: block;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 40%;
 }
